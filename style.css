@@ -1133,7 +1133,7 @@ hr{
       animation-timing-function: ease-in-out;
     }
   }
-@media screen and (max-width:600px) {
+@media screen and (max-width:830px) {
     .icon {
         display: unset;
     }
@@ -1163,5 +1163,93 @@ hr{
         padding: 20px;
 
     }
+    .bannerdescription{
+        text-align: center;
+        padding: 0px 50px 0px 50px;
+    }
+    .latestprojecttext{
+        text-align: center;
+    }
+    .latestblock{
+        flex-direction: column;
+    }
+    .latestprojecttextinner{
+        width: 100%;
+    }
+    .latestprojectimage{
+        width: 100%;
+    }
+    .otherprojects{
+        text-align: center;
+    }
+    .galleryblockmain{
+        flex-direction: column;
+    }
+    .galleryblockside{
+        width: 100%;
+    }
+    .galleryblocksidespecial{
+        width: 100%;
+        padding: 50px;
+    }
 
+/*About Me*/
+
+    .aboutmemain{
+        flex-direction:column-reverse;
+    }
+    .aboutmetext{
+        width: 100%;
+    }
+    .aboutmeimg{
+        width: 100%;
+    }
+    .skillsicon{
+        flex-direction: column;
+    }
+    .worktotal{
+        flex-direction: column;
+    }
+
+/*work*/
+    .workheader{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .workheader h1{
+        font-size: 50px;
+    }
+    .thework{
+        flex-direction: column;
+    }
+    .theworkmoreimagestwo{
+        flex-direction: column;
+    }
+    .theworkmoreimages{
+        flex-direction: column;
+    }
+    .theworkmoreimagesone{
+        font-size: 30px;
+    }
+    .theworkmoreimagesone{
+        padding:40px 10px 10px 10px;
+    }
+    .theworkmoreinternal{
+        margin: 20px;
+    }
+/* Activities */
+    .activitytitle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .activities{
+        padding: 0px;
+    }
+    .activityblock{
+        flex-direction: column;
+    }
+/* Contact */
+    .templateheadertext{
+        font-size: 50px;
+    }
 }
