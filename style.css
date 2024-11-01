@@ -1133,7 +1133,7 @@ hr{
       animation-timing-function: ease-in-out;
     }
   }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .icon {
         display: unset;
     }
@@ -1236,6 +1236,9 @@ hr{
     }
     .theworkmoreinternal{
         margin: 20px;
+    }
+    .gallerytext{
+        font-size: 30px;
     }
 /* Activities */
     .activitytitle{
