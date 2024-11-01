@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <title>RUSSELL CHEW WORKS</title>
+        <script src="https://kit.fontawesome.com/c284f5538b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navresponsive" id="topnav">
+            <div class="logo"><a href="index.html"><img src="img/Logo.png"></a></div>
+            <ul class="navbar">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="work.html">WORKS</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="javascript:void(0)" class="icon" onclick="menu()"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+        <script>
+            function menu() {
+                var x =
+                    document.getElementById("topnav");
+                if (x.className === "navresponsive") {
+                    x.className += " responsive"
+                } else {
+                    x.className = "navresponsive";
+                }
+            }
+        </script>
+        <div class="templateheadertext"> GET IN TOUCH ! </div>
+        <div class="blackbackground">
+        <div class="contactoverall">
+            <br>
+            <div class="contactborder">
+                <div class="contactphoto">
+                <img src="img/Logotransparent.png">
+                </div>
+                <div class="contactinformation"> 
+                    <div class="contactinternal">
+                        <h3>Work Email:</h3>
+                        <h3>Personal Email:</h3>
+                        <h3>Mobile Number:</h3>
+                    </div>
+                    <div class="contactinternal">
+                        <p><a href="mailto:Russchewdz@gmail.com.com">Russchewdz@gmail.com</a></p>
+                        <p><a href="mailto:Russellchew99@gmail.com">Russellchew99@gmail.com</a></p>
+                        <p>+65 9648 4636</p>
+                    </div>
+                </div>
+                <br>
+                <div class="socialmediacontact">
+                    <div class="sminner"><a href="https://www.instagram.com/russchewdz/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="sminner"><a href="https://www.linkedin.com/in/russell-chew-49496217a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                </div>
+                <br>
+                <div class="downloadcv"><a href="img/Russell_Resume.png" download><button class="button-89" role="button">Download CV</button></a></div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="footerlogo"><img src="/img/Logo.png"></div>
+            <div class="footername">RUSSELL CHEW</div>
+            <div class="socialmedia">
+                <div class="sminner"><a href="https://www.instagram.com/russchewdz/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="sminner"><a href="https://www.linkedin.com/in/russell-chew-49496217a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+    
+            </div>
+        </footer>
+    </body>
+</html>
