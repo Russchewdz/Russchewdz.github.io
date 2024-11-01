@@ -1133,7 +1133,7 @@ hr{
       animation-timing-function: ease-in-out;
     }
   }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1400px) {
     .icon {
         display: unset;
     }
